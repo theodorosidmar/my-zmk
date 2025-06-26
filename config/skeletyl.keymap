@@ -50,10 +50,10 @@
 
     left_symbols_layer {
       bindings = <
-        &trans         &kp COLON       &kp LESS_THAN &kp GREATER_THAN &kp SEMI     &trans &trans          &trans    &trans   &trans
-        &kp LEFT_BRACE &kp RIGHT_BRACE &kp LPAR      &kp RPAR         &kp AT       &trans &none           &kp EQUAL &kp PLUS &kp PERCENT
-        &trans         &kp EXCLAMATION &kp LBKT      &kp RBKT         &trans       &trans &trans          &trans    &trans   &trans
-                                       &trans        &kp K_VOUME_DOWN &trans       &trans &kp K_VOLUME_UP &trans
+        &trans         &kp COLON       &kp LESS_THAN &kp GREATER_THAN  &kp SEMI     &trans &trans          &trans    &trans   &trans
+        &kp LEFT_BRACE &kp RIGHT_BRACE &kp LPAR      &kp RPAR          &kp AT       &trans &none           &kp EQUAL &kp PLUS &kp PERCENT
+        &trans         &kp EXCLAMATION &kp LBKT      &kp RBKT          &trans       &trans &trans          &trans    &trans   &trans
+                                       &trans        &kp K_VOLUME_DOWN &trans       &trans &kp K_VOLUME_UP &trans
       >;
     };
 
