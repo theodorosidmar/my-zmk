@@ -17,7 +17,7 @@
         &none &kp Q        &kp W       &kp E      &kp R        &kp T         &kp Y       &kp U    &kp I          &kp O         &kp P           &none
         &none &mt LSHIFT A &lt 5 S     &lt 1 D    &lt 3 F      &kp G         &kp H       &lt 4 J  &lt 2 K        &lt 6 L       &mt LSHIFT SEMI &none
         &none &kp Z        &mt LCTRL X &mt LALT C &kp V        &kp B         &kp N       &kp M    &mt LALT COMMA &mt LCTRL DOT &kp SLASH       &none
-                                 &none      &kp LS(LGUI) &kp BSPC      &lt 7 SPACE &kp LGUI &none
+                                       &none      &kp LS(LGUI) &kp BSPC      &lt 7 SPACE &kp LGUI &none
       >;
     };
 
@@ -26,7 +26,7 @@
         &none &trans &trans    &trans &trans    &trans            &trans &mkp LCLK      &msc SCRL_UP   &mkp RCLK       &trans          &none
         &none &trans &mkp LCLK &none  &mkp RCLK &trans            &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP    &mmv MOVE_RIGHT &none
         &none &trans &trans    &trans &trans    &trans            &trans &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_RIGHT &trans          &none
-                         &trans &trans    &trans            &trans &trans         &trans
+                               &trans &trans    &trans            &trans &trans         &trans
       >;
     };
 
@@ -35,7 +35,7 @@
         &none &trans   &trans   &kp PG_UP &trans    &trans        &trans &trans   &trans &trans &trans &none
         &none &kp LEFT &kp UP   &kp DOWN  &kp RIGHT &trans        &trans &kp LGUI &none  &trans &trans &none
         &none &trans   &kp HOME &kp PG_DN &kp END   &trans        &trans &trans   &trans &trans &trans &none
-                          &trans    &trans    &trans        &trans &trans   &trans
+                                &trans    &trans    &trans        &trans &trans   &trans
       >;
     };
 
@@ -44,7 +44,7 @@
         &none &trans    &trans   &trans   &trans &trans           &trans   &kp UNDER &kp PIPE  &kp SQT   &trans     &none
         &none &kp CARET &kp STAR &kp AMPS &none  &trans           &kp HASH &kp TILDE &kp SLASH &kp DQT   &kp DOLLAR &none
         &none &trans    &trans   &trans   &trans &trans           &trans   &kp MINUS &kp BSLH  &kp GRAVE &trans     &none
-                           &trans   &trans &trans           &trans   &trans    &trans
+                                 &trans   &trans &trans           &trans   &trans    &trans
       >;
     };
 
@@ -53,7 +53,7 @@
         &none &trans         &kp COLON       &kp LESS_THAN &kp GREATER_THAN  &kp SEMI     &trans &trans          &trans    &trans   &trans      &none
         &none &kp LEFT_BRACE &kp RIGHT_BRACE &kp LPAR      &kp RPAR          &kp AT       &trans &none           &kp EQUAL &kp PLUS &kp PERCENT &none
         &none &trans         &kp EXCLAMATION &kp LBKT      &kp RBKT          &trans       &trans &trans          &trans    &trans   &trans      &none
-                                       &trans        &kp K_VOLUME_DOWN &trans       &trans &kp K_VOLUME_UP &trans
+                                             &trans        &kp K_VOLUME_DOWN &trans       &trans &kp K_VOLUME_UP &trans
       >;
     };
 
@@ -62,7 +62,7 @@
         &none &trans &trans &trans &trans &trans                  &trans &kp F7 &kp F8 &kp F9 &kp F10 &none
         &none &trans &none  &trans &trans &trans                  &trans &kp F4 &kp F5 &kp F6 &kp F11 &none
         &none &trans &trans &trans &trans &trans                  &trans &kp F1 &kp F2 &kp F3 &kp F12 &none
-                      &trans &trans &trans                  &trans &trans &trans
+                            &trans &trans &trans                  &trans &trans &trans
       >;
     };
 
@@ -71,16 +71,16 @@
         &none &kp KP_DIVIDE &kp N7 &kp N8 &kp N9 &kp PLUS          &trans &trans &trans &trans &trans &none
         &none &kp N0        &kp N1 &kp N2 &kp N3 &kp KP_MINUS      &trans &trans &trans &trans &trans &none
         &none &kp STAR      &kp N4 &kp N5 &kp N6 &kp KP_EQUAL      &trans &trans &trans &trans &trans &none
-                             &trans &trans &trans            &trans &trans &trans
+                                  &trans  &trans &trans            &trans &trans &trans
       >;
     };
 
     always_accessible_layer {
       bindings = <
-        &none &trans &trans    &kp COLON &kp ESC   &trans        &trans &trans   &trans &kp PSCRN &kp DEL     &none
-        &none &trans &kp PRCNT &kp FSLH  &kp ENTER &trans        &trans &kp LGUI &trans &trans    &trans      &none
-        &none &trans &trans    &trans    &kp EXCL  &trans        &trans &trans   &trans &trans    &bootloader &none
-                         &trans    &trans    &kp TAB       &none  &trans   &trans
+        &none &trans   &trans    &kp COLON &kp ESC   &trans        &trans &trans   &trans &kp PSCRN &kp DEL     &none
+        &none &kp CAPS &kp PRCNT &kp FSLH  &kp ENTER &trans        &trans &kp LGUI &trans &trans    &trans      &none
+        &none &trans   &trans    &trans    &kp EXCL  &trans        &trans &trans   &trans &trans    &bootloader &none
+                                 &trans    &trans    &kp TAB       &none  &trans   &trans
       >;
     };
   };
