@@ -82,10 +82,10 @@
 
     always_accessible_layer {
       bindings = <
-        &none &trans   &trans    &kp COLON &kp ESC   &trans        &trans &trans   &trans &kp PSCRN &kp DEL     &none
-        &none &kp CAPS &kp PRCNT &kp FSLH  &kp ENTER &trans        &trans &kp LGUI &trans &trans    &trans      &none
-        &none &trans   &trans    &trans    &kp EXCL  &trans        &trans &trans   &trans &trans    &bootloader &none
-                                 &trans    &trans    &kp TAB       &none  &trans   &trans
+        &none &trans   &trans    &kp COLON  &kp ESC   &trans        &trans &trans   &trans &kp PSCRN &kp DEL     &none
+        &none &kp CAPS &kp PRCNT &kp FSLH   &kp ENTER &trans        &trans &kp LGUI &trans &trans    &trans      &none
+        &none &trans   &trans    &RA(COMMA) &kp EXCL  &trans        &trans &trans   &trans &trans    &bootloader &none
+                                 &trans     &trans    &kp TAB       &none  &trans   &trans
       >;
     };
   };
