@@ -13,10 +13,6 @@
   keymap {
     compatible = "zmk,keymap";
 
-    &mt {
-      tapping-term-ms = <400>;
-    };
-
     base_layer {
       bindings = <
         &none &kp Q        &kp W       &kp E      &kp R        &kp T         &kp Y       &kp U    &kp I          &kp O         &kp P           &none
