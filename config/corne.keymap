@@ -13,7 +13,7 @@
   behaviors {
     mt: mod_tap {
       compatible = "zmk,behavior-hold-tap";
-      tapping-term-ms = <400>;
+      tapping-term-ms = <200>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
