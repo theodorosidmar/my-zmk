@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+  behaviors {
+    mt: mod_tap {
+      compatible = "zmk,behavior-hold-tap";
+      tapping-term-ms = <400>;
+      flavor = "tap-preferred";
+      bindings = <&kp>, <&kp>;
+    };
+  };
+
   keymap {
     compatible = "zmk,keymap";
 
