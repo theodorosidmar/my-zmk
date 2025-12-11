@@ -19,6 +19,43 @@
     };
   };
 
+  macros {
+    shrug: shrug {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings = <
+        &macro_press   &kp LSHIFT
+        &macro_tap     &kp EQUAL
+        &macro_release &kp LSHIFT
+        &kp BACKSLASH
+        &macro_press   &kp LSHIFT
+        &macro_tap     &kp MINUS
+        &macro_release &kp LSHIFT
+        &macro_press   &kp LSHIFT
+        &macro_tap     &kp N9
+        &macro_release &kp LSHIFT
+        &macro_press   &kp LCTRL &kp LSHIFT
+        &macro_tap     &kp U
+        &macro_release &kp LCTRL &kp LSHIFT
+        &macro_tap     &kp N3
+        &macro_tap     &kp N0
+        &macro_tap     &kp N7
+        &macro_tap     &kp N6
+        &macro_tap     &kp SPACE
+        &macro_press   &kp LSHIFT
+        &macro_tap     &kp N0
+        &macro_release &kp LSHIFT
+        &macro_press   &kp LSHIFT
+        &macro_tap     &kp MINUS
+        &macro_release &kp LSHIFT
+        &kp SLASH
+        &macro_press   &kp LSHIFT
+        &macro_tap     &kp EQUAL
+        &macro_release &kp LSHIFT
+      >;
+    };
+  };
+
   keymap {
     compatible = "zmk,keymap";
 
@@ -87,7 +124,7 @@
 
     always_accessible_layer {
       bindings = <
-        &none &trans   &trans    &kp COLON     &kp ESC   &trans        &trans &trans   &trans &kp PSCRN &kp DEL     &none
+        &none &trans   &trans    &kp COLON     &kp ESC   &trans        &trans &trans   &shrug &kp PSCRN &kp DEL     &none
         &none &kp CAPS &kp PRCNT &kp FSLH      &kp ENTER &trans        &trans &kp LGUI &trans &trans    &trans      &none
         &none &trans   &trans    &kp RA(COMMA) &kp EXCL  &trans        &trans &trans   &trans &trans    &bootloader &none
                                  &trans        &trans    &kp TAB       &none  &trans   &trans
