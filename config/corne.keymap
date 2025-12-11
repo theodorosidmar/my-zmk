@@ -26,7 +26,7 @@
       bindings = <
         &none &kp Q        &kp W       &kp E      &kp R        &kp T         &kp Y       &kp U    &kp I          &kp O         &kp P           &none
         &none &mt LSHIFT A &lt 5 S     &lt 1 D    &lt 3 F      &kp G         &kp H       &lt 4 J  &lt 2 K        &lt 6 L       &mt LSHIFT SEMI &none
-        &none &kp Z        &mt LCTRL X &mt LALT C &kp V        &kp B         &kp N       &kp M    &mt LALT COMMA &mt LCTRL DOT &kp SLASH       &none
+        &none &kp Z        &mt LCTRL X &mt LALT C &kp V        &kp B         &kp N       &kp M    &mt RALT COMMA &mt LCTRL DOT &kp SLASH       &none
                                        &none      &kp LS(LGUI) &kp BSPC      &lt 7 SPACE &kp LGUI &none
       >;
     };
