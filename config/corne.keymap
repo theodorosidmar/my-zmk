@@ -63,7 +63,7 @@
         &none &trans         &kp COLON       &kp LESS_THAN &kp GREATER_THAN  &kp SEMI     &trans &trans          &trans    &trans   &trans      &none
         &none &kp LEFT_BRACE &kp RIGHT_BRACE &kp LPAR      &kp RPAR          &kp AT       &trans &none           &kp EQUAL &kp PLUS &kp PERCENT &none
         &none &trans         &kp EXCLAMATION &kp LBKT      &kp RBKT          &trans       &trans &trans          &trans    &trans   &trans      &none
-                                             &trans        &kp K_VOLUME_DOWN &trans       &trans &kp K_VOLUME_UP &trans
+                                             &kp C_PREV    &kp K_VOLUME_DOWN &kp C_PP     &trans &kp K_VOLUME_UP &kp C_NEXT
       >;
     };
 
